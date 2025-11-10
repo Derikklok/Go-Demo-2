@@ -29,6 +29,8 @@ func main() {
 	// use other go files
 	cmd.Connect()
 	cmd.GetUserData()
+	cmd.GetLoopData()
+	cmd.SetName("Sachin")
 }
 
 // Double shift to switch between multiple files
