@@ -32,3 +32,9 @@ func GetLoopData() {
 func SetName(name string) {
 	fmt.Println("First Name\t:\t", name)
 }
+
+
+func GetFruitDate(){
+	fruits := []string{"apple","banana","fruits"}
+	fmt.Println("Printing available fruits...\t:\t",fruits)
+}

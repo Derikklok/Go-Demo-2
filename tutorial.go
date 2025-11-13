@@ -31,6 +31,9 @@ func main() {
 	cmd.GetUserData()
 	cmd.GetLoopData()
 	cmd.SetName("Sachin")
+
+	// Get Data from Slices - basic collections in Go
+	cmd.GetFruitDate()
 }
 
 // Double shift to switch between multiple files
