@@ -35,6 +35,11 @@ func SetName(name string) {
 
 
 func GetFruitDate(){
-	fruits := []string{"apple","banana","fruits"}
+	fruits := []string{"apple","banana","mango"}
 	fmt.Println("Printing available fruits...\t:\t",fruits)
+	fmt.Println("Array length\t:\t",len(fruits))
+	// add item to the array
+	fruits = append(fruits, "orange")
+	fmt.Println("Fruits array after append\t:\t",fruits)
+	fmt.Println("New array size\t:\t",len(fruits))
 }
