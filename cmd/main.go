@@ -43,3 +43,14 @@ func GetFruitDate(){
 	fmt.Println("Fruits array after append\t:\t",fruits)
 	fmt.Println("New array size\t:\t",len(fruits))
 }
+
+// check the functionality of the * marks
+ var memAddress int = 457854
+ func PrintMemoryAddress(){
+	fmt.Println(memAddress)
+ }
+
+ 
+ func PrintNewMemAddress(newMemAdd int){
+	fmt.Println(newMemAdd)
+ }

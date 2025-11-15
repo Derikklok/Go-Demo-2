@@ -34,6 +34,8 @@ func main() {
 
 	// Get Data from Slices - basic collections in Go
 	cmd.GetFruitDate()
+	cmd.PrintMemoryAddress()
+	cmd.PrintNewMemAddress(12345)
 }
 
 // Double shift to switch between multiple files
