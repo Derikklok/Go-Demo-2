@@ -54,4 +54,5 @@ func GetFruitDate(){
  func PrintNewMemAddress(newMemAdd int){
 	fmt.Println(newMemAdd)
 	GetCheckRoute()
+	LoadEnvs()
  }
